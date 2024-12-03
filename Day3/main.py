@@ -1,7 +1,3 @@
-# 0.09999999403953552ms.
-import time
-
-
 def organize_inventory(inventory):
     organized = {}
     for item in inventory:
