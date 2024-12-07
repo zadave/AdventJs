@@ -15,13 +15,3 @@ def organize_shoes(shoes):
         result.extend([size] * pairs)
 
     return sorted(result)
-
-
-shoes2 = [
-    {'type': 'I', 'size': 38},
-    {'type': 'R', 'size': 38},
-    {'type': 'I', 'size': 38},
-    {'type': 'I', 'size': 38},
-    {'type': 'R', 'size': 38},
-]
-print(organize_shoes(shoes2))

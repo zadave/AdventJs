@@ -3,6 +3,6 @@ def inBox(box):
         row = box[i]
         if '*' in row:
             index = row.index('*')
-            if index > 0 and index < len(row) - 1:
+            if 0 < index < len(row) - 1:
                 return True
     return False
