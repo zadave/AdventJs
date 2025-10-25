@@ -1,5 +1,6 @@
 from typing import List, Literal
 
+
 def move_train(board: List[str], mov: Literal['U', 'D', 'R', 'L']) -> Literal['none', 'crash', 'eat']:
     head_row = next(i for i, row in enumerate(board) if '@' in row)
     head_col = board[head_row].index('@')

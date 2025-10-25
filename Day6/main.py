@@ -1,4 +1,4 @@
-def inBox(box):
+def in_box(box):
     for i in range(1, len(box) - 1):
         row = box[i]
         if '*' in row:
